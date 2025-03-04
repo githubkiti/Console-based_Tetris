@@ -33,13 +33,23 @@ namespace 俄罗斯方块
             pos.x = x;
             pos.y = y;
         }
+
+
+        public void Clear()
+        {
+            Console.SetCursorPosition(pos.x, pos.y);
+            Console.Write("  ");
+        }
+
         public void Draw()
         {
-            
             switch (blockType)
             {
                 case E_BlockType.Wall:
                     Console.ForegroundColor = ConsoleColor.Red;
+                    break;
+                case E_BlockType.OShape:
+                    Console.ForegroundColor = ConsoleColor.White;
                     break;
                 case E_BlockType.IShape:
                     Console.ForegroundColor = ConsoleColor.Green;

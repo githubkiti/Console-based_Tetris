@@ -35,7 +35,7 @@ namespace 俄罗斯方块
             //添加每种变形方块的相对坐标
             relativePos_O.Add(new Position[3]
                     {
-                        new Position(2,0),
+                        new Position(2, 0),
                         new Position(0, 1),
                         new Position(2, 1),
                     });
@@ -50,7 +50,7 @@ namespace 俄罗斯方块
             {
                         new Position(-4, 0),
                         new Position(-2, 0),
-                        new Position(0, 0),
+                        new Position(2, 0),
             });
             relativePos_I.Add(new Position[3]
             {
@@ -71,31 +71,6 @@ namespace 俄罗斯方块
                         new Position(2, 0),
                         new Position(0, 1),
                     });
-            relativePos_T.Add(new Position[3]
-            {
-                        new Position(0,-1),
-                        new Position(-2, 0),
-                        new Position(0, 1),
-            });
-            relativePos_T.Add(new Position[3]
-            {
-                        new Position(0,-1),
-                        new Position(-2, 0),
-                        new Position(2, 0),
-            });
-            relativePos_T.Add(new Position[3]
-            {
-                        new Position(0,-1),
-                        new Position(2, 0),
-                        new Position(0, 1),
-            });
-
-            relativePos_T.Add(new Position[3]
-                   {
-                        new Position(-2, 0),
-                        new Position(2, 0),
-                        new Position(0, 1),
-                   });
             relativePos_T.Add(new Position[3]
             {
                         new Position(0,-1),
@@ -144,12 +119,12 @@ namespace 俄罗斯方块
                     {
                         new Position(0, -1),
                         new Position(-2, 0),
-                        new Position(0, 2),
+                        new Position(-2, 1),
                     });
             relativePos_ZM.Add(new Position[3]
             {
                         new Position(-2, -1),
-                        new Position(0, -1),
+                        new Position(0, 1),
                         new Position(2, 0),
             });
             relativePos_ZM.Add(new Position[3]

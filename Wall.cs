@@ -8,8 +8,8 @@ namespace 俄罗斯方块
 {
     class Wall : IDraw
     {
-        List<DrawObject> staticWalls;
-        List<DrawObject> dynamicWalls;
+        public List<DrawObject> staticWalls;
+        public List<DrawObject> dynamicWalls;
         public Wall()
         {
             //实例化静态墙壁的储存容器并添加墙壁
@@ -26,9 +26,6 @@ namespace 俄罗斯方块
             //实例化动态墙壁容器
             dynamicWalls = new List<DrawObject>();
         }
-
-
-
 
         //绘制墙壁
         public void Draw()
