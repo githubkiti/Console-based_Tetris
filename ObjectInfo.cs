@@ -124,13 +124,13 @@ namespace 俄罗斯方块
             relativePos_ZM.Add(new Position[3]
             {
                         new Position(-2, -1),
-                        new Position(0, 1),
+                        new Position(0, -1),
                         new Position(2, 0),
             });
             relativePos_ZM.Add(new Position[3]
             {
-                        new Position(-2, -1),
-                        new Position(-2, 0),
+                        new Position(2, -1),
+                        new Position(2, 0),
                         new Position(0, 1),
             });
             relativePos_ZM.Add(new Position[3]

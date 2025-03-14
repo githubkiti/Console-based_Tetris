@@ -20,7 +20,7 @@ namespace 俄罗斯方块
 
     class DrawObject : IDraw
     {
-        private E_BlockType blockType;
+        public E_BlockType blockType;
 
         public Position pos;  
         public DrawObject(E_BlockType blockType)
@@ -33,7 +33,6 @@ namespace 俄罗斯方块
             pos.x = x;
             pos.y = y;
         }
-
 
         public void Clear()
         {

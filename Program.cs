@@ -9,47 +9,12 @@ namespace 俄罗斯方块
 {
     class Program
     {
+        public static E_SceneType nowScene = E_SceneType.BeginScene;
         static void Main(string[] args)
         {
-            string lock_s = "";
-            ConsoleSetup.Run();
-            Wall wall = new Wall();
-            wall.Draw();
-            BlocksWorker BW = new BlocksWorker();
-            BW.DrawBlocks();
-            Thread t = new Thread(() =>
-            {
-                while (true)
-                {
-                    
-                    switch (Console.ReadKey(true).Key)
-                    {
-                        case ConsoleKey.R:
-                            lock (lock_s)
-                            {
-                                BW.SetRotateState();
-                            }
-                            break;
-                    }
-                }
-            });
-            t.Start();
-            while (true)
-            {
-
-                //lock () { }
-                
-                Thread.Sleep(200);
-                if (BW.CanMove(wall))
-                {
-                    BW.Move();
-                }
-                
-                BW.ClearBlocks();
-                BW.DrawBlocks();
-                
-            }
+            GameScence gameScence = new GameScence();
+            gameScence.Play();
+            
         }
-        
     }
 }

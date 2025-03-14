@@ -9,8 +9,8 @@ namespace 俄罗斯方块
     class ConsoleSetup
     {
         private static ConsoleSetup consoleWindow = new ConsoleSetup();
-        private static int height = 60;
-        private static int width = 60;
+        private static int height = 50;
+        private static int width = 50;
 
         public static int Height
         {
@@ -29,9 +29,12 @@ namespace 俄罗斯方块
 
         public static void Run()
         {
+
             Console.CursorVisible = false;
+            
             Console.SetWindowSize(width, height);
             Console.SetBufferSize(width, height);
+
         }
     }
 }

@@ -1,0 +1,14 @@
+C:\Users\I\source\repos\Csharp进阶\俄罗斯方块\bin\Debug\俄罗斯方块.exe.config
+C:\Users\I\source\repos\Csharp进阶\俄罗斯方块\bin\Debug\俄罗斯方块.exe
+C:\Users\I\source\repos\Csharp进阶\俄罗斯方块\bin\Debug\俄罗斯方块.pdb
+C:\Users\I\source\repos\Csharp进阶\俄罗斯方块\obj\Debug\俄罗斯方块.csproj.AssemblyReference.cache
+C:\Users\I\source\repos\Csharp进阶\俄罗斯方块\obj\Debug\俄罗斯方块.csproj.CoreCompileInputs.cache
+C:\Users\I\source\repos\Csharp进阶\俄罗斯方块\obj\Debug\俄罗斯方块.exe
+C:\Users\I\source\repos\Csharp进阶\俄罗斯方块\obj\Debug\俄罗斯方块.pdb
+C:\Users\Admin\Desktop\Blocks\-\bin\Debug\俄罗斯方块.exe.config
+C:\Users\Admin\Desktop\Blocks\-\bin\Debug\俄罗斯方块.exe
+C:\Users\Admin\Desktop\Blocks\-\bin\Debug\俄罗斯方块.pdb
+C:\Users\Admin\Desktop\Blocks\-\obj\Debug\俄罗斯方块.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Blocks\-\obj\Debug\俄罗斯方块.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Blocks\-\obj\Debug\俄罗斯方块.exe
+C:\Users\Admin\Desktop\Blocks\-\obj\Debug\俄罗斯方块.pdb
